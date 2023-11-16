@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0;
+}
+.resto{
+    width: 400px;
+    height: 560px;
+}
+input, button{
+    font-family: Arial;
+    color: #333;
+    font-size: 14px;
+} 
+.vito{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+select{
+    background: none;
+    border: none;
+    color: white;
+}
+.amine{
+    background: #36070e;
+    width: 800px;
+    height: 560;
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+}
+.vito .amine{
+    max-width: 100%;
+}
+.amine form{
+    width: 50%;
+    margin-top: 36px;
+    margin-left: 45px;
+    margin-right: 45px; 
+}
+.amine h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: -30px;
+    margin-left: -19px;
+    margin-bottom: 28px;
+}
+h1{
+    font-size: 20px;
+    padding: 10px;
+
+}
+      .form{
+        display: flex;
+    }
+    .form input{
+        width: 50%;
+    }
+    .form input:first-child{
+        margin-right: 25px;
+    
+    }
+    .form-wrapper{
+        position: relative;
+    }
+    .form-control{
+        border: 1px solid #333; 
+        border: none;
+        border-bottom: 1px solid #333;
+        color: white;
+        display: block;
+        width: 100%;
+        height: 16px;
+        padding-right: 0;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    .dinnig{
+        top: -15px;
+        color: white;
+        font-size: 17px;
+        left: -57px;
+        padding: 10px;
+    }
+    input{
+        border: none;
+        border-bottom: 2px solid rgb(71, 44, 69);
+        background-color:#36070e  ;
+        color: white;
+        margin: 15px 0px;
+        padding: 9px;
+    }
+    #sel{
+        position: relative;
+        left: 250px;
+        top: 30px;
+    }
+    .div1{
+        display: flex;
+        gap:2px ;
+    }
+    .blanc{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: white;
+
+    }
+    .blanc:hover{
+        border: 1px solid rgb(197, 161, 95);
+    background: rgb(197, 161, 95);
+    transition: 1s;
+    }
+    .noir{
+        width: 25px;
+        height: 25px;
+        border-radius: 30px;
+        background-color:#36070e ;
+        color: white;
+        position: relative;
+        bottom: 13px;
+        left: 5px;
+    }
+    .noir:hover{
+        border: 1px solid rgb(27, 172, 92);
+        background: rgb(27, 172, 92);
+        transition: 1s;
+    }
+    .div2{
+        width: 100px;
+        height: 30px;
+        border-radius: 30px;
+        background-color:rgb(197, 161, 95);
+    }
+    .div2:hover{
+        border: 1px solid white;
+        background: white;
+        transition: 1s;
+    }
+    p{
+        text-align: center;
+        position: relative;
+        top: 7px;
+        left: 10px;
+        color: black;
+    
+        
+    }
+.but{
+    background:rgb(197, 161, 95);
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    font-size: 15px;
+    color: #fff;
+}
+.but:hover{
+    border: 1px solid black;
+    background: black;
+    transition: 1s;
+}
+.pi{
+    color: rgb(197, 161, 95);
+    margin-top: 10px;
+    text-align: left;
+}
